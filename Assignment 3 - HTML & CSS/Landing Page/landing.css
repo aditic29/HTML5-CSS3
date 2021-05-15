@@ -1,0 +1,89 @@
+body{
+	font-family: Helvetica;
+	position: relative;
+	margin: 0px;
+	background-color: #121212;
+	color: #efefef;
+}
+
+.bimage{
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	padding: 5px 25px 20px 25px;
+}
+
+button{
+	border: 1.6px solid #efefef;
+	background-color: transparent;
+	color: white;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.main{
+	display: flex;
+	flex-grow: 1;
+}
+
+.ione{
+	width: 400px;
+	height: auto;
+}
+
+.itwo{
+	width: 400px;
+	height: auto;
+}
+
+.ithree{
+	width: 400px;
+	height: auto;
+}
+
+button:hover{
+	background-color: #353535;
+}
+
+.ione:hover{
+	opacity: 0.7;
+}
+
+.itwo:hover{
+	opacity: 0.7;
+}
+
+.ithree:hover{
+	opacity: 0.7;
+}
+
+.body1{
+	width: 100%;
+	padding: 10px;
+}
+
+.body2{
+	width: 100%;
+	padding: 10px;
+}
+
+.body3{
+	width: 100%;
+	padding: 10px;
+}
+
+p{
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+h3{
+	text-align: center;
+}

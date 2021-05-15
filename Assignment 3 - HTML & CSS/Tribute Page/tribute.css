@@ -1,0 +1,36 @@
+body{
+	background-color: #301934;
+	color: white;
+}
+
+header{
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	margin-left: 2%;
+	display: inline-block;
+}
+
+.image{
+	max-width: 40%;
+	display: inline-block;
+	float: right;
+	padding: 17px 0px 10px 10px;
+}
+
+.main{
+	max-width: 95%;
+	display: inline-block;
+}
+
+li{
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+h2{
+	text-decoration: underline;
+}

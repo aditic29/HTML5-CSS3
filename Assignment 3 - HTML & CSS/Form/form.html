@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vacation Survey</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<h1>Plan your vacation with us!</h1>
+	<section>
+		<h3>Fill out the form and we'll do the rest </h3>
+		<form>
+			<div class="frows">
+				<div class="fcols-left">
+					<label for="name">Name</label>
+				</div>
+				<div class="fcols-right">
+					<input type="text" name="name" class="name" style="width: 70%;">
+				</div>			
+			</div>
+
+			<div class="frows">
+				<div class="fcols-left">
+					<label for="bday">Birthday</label>
+				</div>
+				<div class="fcols-right">
+					<input type="date" name="bday" class="bday" style="width: 70%;">
+				</div>
+			</div>
+
+			<div class="frows">
+				<div class="fcols-left">
+					<label for="email">Email</label>
+				</div>
+				<div class="fcols-right">
+					<input type="Email" name="email" class="email" style="width: 70%;">
+				</div>
+			</div>
+
+			<div class="frows">
+				<div class="fcols-left">
+					<p style="margin: 0">Select a country to visit.</p>
+				</div>
+				<div class="fcols-right">
+					<input type="radio" name="country" value="bali">
+					<label for="bali">Bali</label><br>
+
+					<input type="radio" name="country" value="aruba">
+					<label for="aruba">Aruba</label><br>
+
+					<input type="radio" name="country" value="hawaii">
+					<label for="hawaii">Hawaii</label>
+				</div>
+			</div>
+				
+			<div class="frows">
+				<div class="fcols-left">
+					<p style="margin: 0">Select activities</p>
+				</div>
+				<div class="fcols-right">
+					<input type="checkbox" name="activities" value="scuba">
+					<label for="scuba">Scuba Diving</label><br>
+
+					<input type="checkbox" name="activities" value="surf">
+					<label for="surf">Surfing</label><br>
+
+					<input type="checkbox" name="activities" value="jet">
+					<label fors="jet">Jet Skiing</label><br>
+
+					<input type="checkbox" name="activities" value="dive">
+					<label for="dive">Cliff Diving</label><br>
+				</div>
+			</div>
+			
+			<div class="frows">
+				<div class="fcols-left">
+					<label for="days">Number of Days</label>
+				</div>
+				<div class="fcols-right">
+					<select name="days" class="days">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7+</option>
+					</select><br>
+				</div>
+			</div>
+
+			<div class="frows">
+				<div class="fcols-left">
+					<label for="notes">Any comments?</label>
+				</div>
+				<div class="fcols-right">
+					<textarea class="notes"></textarea>
+				</div>
+			</div>
+
+			<div class="frows">
+				<input type="submit" name="submit" class="submit">
+			</div>	
+			
+		</form>
+	</section>
+
+</body>
+</html>

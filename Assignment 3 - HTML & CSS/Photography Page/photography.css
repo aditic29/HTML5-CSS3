@@ -1,0 +1,178 @@
+a:link{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.box-1 a:hover{
+	background-color: #333333;
+}
+
+.box-1 a:visited{
+color: #ffffff;
+}
+
+.box-1{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	margin: auto;
+	padding: 0px;
+	height: 40px;
+	text-align: center;
+	background-color: #111111;
+}
+
+body{
+	background-color: #f7f2ee;
+	font-family: 'Trebuchet MS', sans-serif;
+	margin: 0px;
+}
+
+.para1{
+	background-image: url("bg1.jpg");
+	min-height: 700px;
+
+	background-attachment: fixed;
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.para2{
+	background-image: url("bg2.jpg");
+	min-height: 700px;
+
+	background-attachment: fixed;
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.para3{
+	background-image: url("bg3.jpg");
+	min-height: 700px;
+
+	background-attachment: fixed;
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.main{
+	display: flex;
+	flex-grow: 1;
+}
+
+.ione{
+	width: 400px;
+	height: auto;
+}
+
+.itwo{
+	width: 400px;
+	height: auto;
+}
+
+.ithree{
+	width: 400px;
+	height: auto;
+}
+
+.ione:hover{
+	opacity: 0.7;
+}
+
+.itwo:hover{
+	opacity: 0.7;
+}
+
+.ithree:hover{
+	opacity: 0.7;
+}
+
+.body1{
+	width: 100%;
+	padding: 10px;
+}
+
+.body2{
+	width: 100%;
+	padding: 10px;
+}
+
+.body3{
+	width: 100%;
+	padding: 10px;
+}
+
+.info{
+	padding: 40px 30px 40px 30px;
+	line-height: 1.8em;
+	text-align: justify;
+}
+
+h1, h3{
+	text-align: center;
+	padding: 20px;
+}
+
+.pone{
+	line-height: 1.8em;
+	text-align: justify;
+}
+
+.ptwo{
+	line-height: 1.8em;
+	text-align: justify;
+}
+
+.pthree{
+	line-height: 1.8em;
+	text-align: justify;
+}
+
+.home{
+	flex-grow: 1;
+	padding: 8px;
+}
+
+.projects{
+	flex-grow: 1;
+	padding: 8px;
+}
+
+.categories{
+	flex-grow: 1;
+	padding: 8px;
+}
+
+.contact{
+	flex-grow: 1;
+	padding: 8px;
+}
+
+footer{
+	font-size: 12px;
+	text-align: center;
+}
+
+.bone{
+	margin: 15px auto;
+}
+
+.btwo{
+	margin: 15px auto;
+}
+
+.bthree{
+	margin: 15px auto;
+}
+
+button{
+	border: 1.5px solid #111111;
+	padding: 5px 10px;
+}
+
+button:hover{
+	background-color: #efe6dc;
+}
