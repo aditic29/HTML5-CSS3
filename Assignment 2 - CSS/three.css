@@ -1,0 +1,6 @@
+body{
+	background-color: #b9cff0;
+}
+p:first-child{
+	text-transform: uppercase;
+}

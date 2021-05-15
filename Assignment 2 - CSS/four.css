@@ -1,0 +1,11 @@
+body{
+	background-color: #b9cff0;
+}
+
+a:link{
+	color: green;
+}
+
+a:visited{
+	color: red;
+}
