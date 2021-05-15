@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 9</title>
+	<style type="text/css">
+		#content{
+			display: grid;
+			grid-template-columns: 50% 50%;
+			grid-template-rows: 180px 430px;
+			font-size: 90px;
+		}
+
+		.tl{
+			background-color: #afafaf;
+			margin: 20px 10px 10px 20px;
+			position: relative;
+		}
+
+		.tr{
+			background-color: grey;
+			margin: 20px 20px 10px 10px;
+			position: relative;
+		}
+
+		.br{
+			background-color: #afafaf;
+			margin: 10px 20px 20px 10px;
+			position: relative;
+		}
+
+		.bl{
+			background-color: grey;
+			margin: 10px 10px 20px 20px;
+			position: relative;
+		}
+
+		.br p{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+
+		.bl p{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+
+		.tr p{
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+
+		.tl p{
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		#content div{
+			border: 5px;
+			border-style: inset;
+		}
+		p {
+			margin: 0px;
+		}
+
+		body{
+			background-color: black;
+			margin: 0px;
+		}
+
+		
+
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div class="tl"><p>topleft</p></div>
+		<div class="tr"><p>topright</p></div>
+		<div class="bl"><p>bottomleft</p></div>
+		<div class="br"><p>bottomright</p></div>
+	</div>
+</body>
+</html>
